@@ -1,0 +1,25 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int arr[100];
+    int i,x;
+    printf("enter the size of array");
+    scanf("%d"&x);
+    printf("enter the elements");
+    for(i=0;i<x;i++)
+    {
+        scanf("%d",&a[i]);
+        
+    }
+    
+    printf("\neven numbers indices are");
+    for(i=0;i<x;i++)
+    {
+    if(i%2!=0) 
+    {
+        printf("%d",arr[i]);
+    }
+    return 0;
+}
